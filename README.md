@@ -10,7 +10,7 @@ You will need to install the package:
 ## Using the library
 
 Basic usage:
-```
+```js 
 const status = require('minecraft-server-status-improved');
  
 status('play.slimevalley.xyz', 25565, (err, response) => {
@@ -21,7 +21,7 @@ status('play.slimevalley.xyz', 25565, (err, response) => {
 
 Or using promises:
 
-```
+```js 
 const status = require('minecraft-server-status-improved');
 
 status('play.slimevalley.xyz', 25565)
